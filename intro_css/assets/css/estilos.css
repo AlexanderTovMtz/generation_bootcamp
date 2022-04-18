@@ -1,0 +1,46 @@
+*{
+    background-color: coral;
+}
+
+/* Selector de etiqueta
+elemento html{
+
+}*/
+
+/*.cuadro{
+    width: 100px; ;
+    height: 100px; ;
+    background-color: olive;
+    border: 1px solid coral;
+    border-radius: 50%;
+}*/
+
+/* Selector de ID*/
+#forma{
+    width: 100px;
+    height: 100px;
+    background-color: olive;
+}
+
+.color-texto{
+    color: coral;
+    background-color: olivedrab;
+}
+
+.forma{
+    height: auto;
+    width: auto;
+
+}
+
+.borde{
+    border: 5px solid cornflowerblue;
+    text-align: center;
+    line-height: 50px;
+}
+
+p{
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: 100px;
+}
