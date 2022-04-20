@@ -12,9 +12,10 @@
     background-color: rgb(188, 114, 190);
     width: 350px;
     text-align: left;
-    height: fit-content;
-    background-position:center;
+    display: flex;
     margin: 0 auto;
+    margin-top: 10px;
+    
 
 }
 
@@ -23,9 +24,10 @@
     border:3px solid red;
     text-align: left;
     width: 350px;
-    height: fit-content;
     border-radius: 5px;
     margin: 0 auto;
+    display: block;
+    margin-top: 10px;
    
 }
 
@@ -33,8 +35,9 @@
     text-align: left;
     border-left:5px solid palevioletred;
     width: 350px;
-    height: fit-content;
     margin: 0 auto;
+    display: block;
+    margin-top: 10px;
 
 
 }
@@ -44,7 +47,8 @@
     border-top:1px solid red;
     border-bottom:1px solid red;
     width: 350px;
-    height: fit-content;
+    display: block;
+    margin-top: 10px;
    
 
 }

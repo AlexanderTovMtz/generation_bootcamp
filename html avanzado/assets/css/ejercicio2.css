@@ -1,0 +1,9 @@
+.formulario{
+    border: 5px solid rgb(160, 219, 229,);
+    padding: 10px;
+    background-color: rgb(0, 128, 34);
+    width: 300px;
+    margin: 0 auto;
+    color: wheat;
+}
+

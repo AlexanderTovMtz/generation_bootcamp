@@ -1,0 +1,24 @@
+
+.formulario{
+    border: 5px solid coral;
+    padding: 10px;
+    background-color: olive;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.colorFondo{
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-enviar{
+    background-color: blueviolet;
+    border:none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+

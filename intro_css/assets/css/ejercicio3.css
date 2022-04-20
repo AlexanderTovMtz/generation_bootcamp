@@ -1,0 +1,23 @@
+*{
+    background-color: rgb(192, 218, 238);
+    font-family: sans-serif ;
+
+}
+
+.title1{
+    text-align: right;
+
+}
+
+span{
+    color: red;
+}
+
+.head1{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+strong{
+    color: orange;
+}
