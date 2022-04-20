@@ -1,0 +1,36 @@
+h1{
+    position: relative;
+    top: 200px;
+}
+
+.cuadro{
+    width: 100px;
+    height: 100px;
+    border: 1px solid coral;
+    /*display: inline-blocks;*/
+}
+
+.div1{
+    background-color: tomato;
+    position: absolute;
+    bottom: 100px;
+}
+
+.div2{
+    background-color: beige;
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+}
+
+.div3{
+    background-color: olivedrab;
+}
+
+.padre{
+    width: 500px;
+    height: 400px;
+    position: relative;
+
+}
+
