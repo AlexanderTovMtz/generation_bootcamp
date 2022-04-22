@@ -1,0 +1,33 @@
+.padre{
+    width: 80%;
+    height: 60vh ;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: crow;
+    justify-content: center;
+}
+
+.hijo{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    
+
+}
+
+.div1{
+    background-color: blue;
+
+}
+
+.div2{
+    background-color: rgb(211, 29, 120);
+
+}
+
+.div3{
+    background-color: rgb(47, 211, 32);
+
+}
+
