@@ -1,0 +1,27 @@
+.img-logo{
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.container{
+    
+}
+
+.img-logo{
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-carrusel{
+    height: calc(100vh-76px);
+    object-fit: cover;
+    object-position: center;
+}
