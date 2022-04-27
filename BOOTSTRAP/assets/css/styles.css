@@ -6,9 +6,30 @@
 }
 
 .img-carrusel {
-    height         : calc(100vh  - 66px);
+    height         : calc(100vh  - 76px);
     object-fit     : cover;
     object-position: center;
+}
+
+.pantalla{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: calc(100vh - 76px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.cuadro{
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 50vw;
+
 }
 
 .img-card{
