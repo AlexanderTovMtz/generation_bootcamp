@@ -1,0 +1,48 @@
+CREATE DATABASE genenation_bootcamp;
+
+USE genenation_bootcamp;
+
+-- Crear una tabla
+CREATE TABLE cohorte12(
+	cohorte12_id int NOT NULL auto_increment,
+    alumnos_id int NOT NULL,
+    
+    
+    
+    primary key (cohorte12_id)
+        
+);
+
+
+-- Añadir y crear columnas una vez creada la tabla
+ALTER TABLE cohorte12 ADD COLUMN (
+ instructor_id int NOT NULL,
+ numero_alumnos int,
+ horario char(10),
+ tipos_sesiones varchar(255),
+ ciudad varchar(255)
+ );
+
+-- insertar datos dentro de la tabla
+insert into cohorte12(alumnos_id, instructor_id, numero_alumnos, horario, tipos_sesiones, ciudad)
+values
+(
+    10, 999, 35,'12:00','Tecnica','CDMX'
+);
+
+
+show create table cohorte12;
+
+CREATE TABLE `cohorte12` (  
+`cohorte12_id` int NOT NULL AUTO_INCREMENT,
+  `alumnos_id` int NOT NULL,
+  `instructor_id` int NOT NULL,
+  `numero_alumnos` int DEFAULT NULL,
+  `horario` char(10) DEFAULT NULL,
+  `tipos_sesiones` varchar(255) DEFAULT NULL,
+  `ciudad` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`cohorte12_id`),
+  KEY `FK_alumnos_id_idx` (`alumnos_id`),
+  CONSTRAINT `FK_alumnos_id` 
+  FOREIGN KEY (`alumnos_id`) REFERENCES `alumnos` (`alumno_id`)
+  ) 
